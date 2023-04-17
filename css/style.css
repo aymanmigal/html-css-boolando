@@ -98,4 +98,31 @@ img {
 
 }
 
+.square {
+    padding: 4px;
+    font-size: 12px ;
+    color: white;
+
+
+}
+
+.red {
+    background-color: red;
+
+}
+
+.green {
+    background-color: green;
+}
+
+.position-relative {
+    position: relative;
+}
+.label-conteiner {
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+
+
+}
 
