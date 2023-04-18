@@ -1,3 +1,5 @@
+/*UTILITIES*/
+
 *{
     margin: 0;
     padding: 0;
@@ -5,14 +7,27 @@
 }
 
 body{
-    font-family: 'Montserrat' , sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
+h6{
+    font-size: 10px;
+}
+
+/*FINE UTILITIES*/
+
+/*INIZIO HEADER*/
 header {
     display:flex;
     align-items: center;
     background-color: #FF6900;
-    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    
+    
     
 
 }
@@ -23,16 +38,19 @@ header {
     margin:0 auto;
     
     
+    
 }
 .row-head {
     width: 100%;
     display: flex;
     margin-top: 4px;
+    padding: 8px;
     
 }
 
 .col-head1{
     width: 33%;
+    
     }
 
 .col-head2{
@@ -60,9 +78,13 @@ header {
     
 }
 
+/*FINE HEADER*/
 
+#spazio-header-main {
+    height: 42px;
+}
 
-
+/*INIZIO CONTENUTO E-COMMERCE*/
 .container-main {
     width: 70%;
     margin:0 auto;
@@ -73,7 +95,7 @@ header {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    
+    margin-bottom: 20px;
 }
 
 .col{
@@ -85,6 +107,7 @@ header {
 }
 img {
     height: 482px ;
+    
 }
 .second-img {
     display: none;
@@ -121,7 +144,7 @@ img {
 }
 .label-conteiner {
     position: absolute;
-    bottom: 90px;
+    bottom: 16%;
     left: 0px;
 
 
@@ -130,4 +153,97 @@ img {
 .price-red {
     color: red;
     margin-right: 8px;
+    font-size: 14px;
+    
 }
+.price-black {
+    font-size: 14px;
+    
+   
+}
+
+
+.square-heart {
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    top: 1.5%;
+    right: 0px;
+
+
+}
+.square-heart-red {
+    padding: 10px;
+    background-color: white;
+    color:red;
+    position: absolute;
+    top: 1.5%;
+    right: 0px;
+
+}
+.heart-position:hover .square-heart-red{
+    display: block;
+
+
+}
+.heart-position:hover .square-heart {
+    display: none;
+
+}
+.square-heart-red {
+    display: none;
+}
+/*FINE CONTENUTO E-COMMERCE*/
+footer {
+    color: white;
+    background-color: #1A1A1A;
+    padding-bottom: 25px;
+    
+}
+
+/*INIZIO FOOTER*/
+
+
+.container-foot {
+    width: 70%;
+    margin:0 auto;
+}
+.row-foot {
+    width: 100%;
+    display: flex;
+    padding:25px
+}
+.col-foot1{
+    width: 50%;
+    }
+.col-foot2{
+        width: 50%;
+        text-align: end;
+        }
+
+
+
+.foot-legal {
+    font-size: 10px;
+    margin-right: 2.5px;
+}
+.foot-icon {
+    
+    margin-right: 2.5px;
+}
+#trovaci-anche-su {
+    font-size: 12px;
+    margin-right: 10px;
+    margin-bottom:7px;
+}
+hr {
+    background-color: white;
+    
+}
+
+
+
+
+
+
+/*FINE FOOTER*/
