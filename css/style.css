@@ -81,14 +81,15 @@ header {
 /*FINE HEADER*/
 
 #spazio-header-main {
-    height: 42px;
+    height: 90px;
+
 }
 
 /*INIZIO CONTENUTO E-COMMERCE*/
 .container-main {
     width: 70%;
     margin:0 auto;
-    margin-top: 40px;
+    
 }
 
 .row {
@@ -99,14 +100,14 @@ header {
 }
 
 .col{
-    width: calc(100% / 3 - 20px);
-    margin-left: 10px;
-    margin-top: 10px;
+    width: calc(100% / 3 - 24px );
+    margin-left: 12px;
     margin-bottom: 30px;
+    
     
 }
 img {
-    height: 482px ;
+    height: 428px ;
     
 }
 .second-img {
@@ -141,6 +142,7 @@ img {
 
 .position-relative {
     position: relative;
+    
 }
 .label-conteiner {
     position: absolute;
